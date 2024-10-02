@@ -16,7 +16,7 @@ class _ProdukDetailState extends State<ProdukDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Produk Izan'),
+        title: const Text('Detail Produk Dila'),
         backgroundColor: Colors.blue,
       ),
       body: Container(
@@ -30,7 +30,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
               children: [
                 Text(
                   "Kode: ${widget.produk!.kodeProduk}",
-                  style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                      fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
                 Text(
